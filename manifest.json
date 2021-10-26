@@ -5,7 +5,6 @@
     "display": "standalone",
     "name": "Imports Sports",
     "orientation": "any",
-    "scope": "/",
     "short_name": "Imports Sports",
     "start_url": "./",
     "theme_color": "#ffffff",
