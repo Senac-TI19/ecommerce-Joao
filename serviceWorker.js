@@ -6,7 +6,7 @@ const recursosCacheados = [
     "./selecoes.html",
     "./index.js",
     "./style.css",
-    "./favicon.icon",
+    "./favicon.ico",
     "./dropdown-menu.css",
     "./icons/apple-icon-57x57.png",
     "./icons/apple-icon-60x60.png",
