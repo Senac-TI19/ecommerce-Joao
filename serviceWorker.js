@@ -1,4 +1,4 @@
-const cacheName= "cache-app-v1";
+const cacheName= "ecommerce-joao-v1";
 
 const recursosCacheados = [
     "./index.html",
