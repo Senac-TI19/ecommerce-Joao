@@ -1,6 +1,7 @@
 const cacheName= "ecommerce-joao-v1";
 
 const recursosCacheados = [
+    "./",
     "./index.html",
     "./clubes.html",
     "./selecoes.html",
@@ -27,9 +28,9 @@ const recursosCacheados = [
 
 self.addEventListener ("install", function (event) {
     console.log("Service Worker instalado");
-    event.waitUnitl(
-        caches.open(cacheName).then(function (cahe){
-            return cache.addAll(recursosCacheados);
+    event.waitUntil(
+        caches.open(cacheName).then(function (cache){
+            return cache.addAll([]);
         })
     );
 });
