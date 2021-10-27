@@ -77,6 +77,12 @@
         "sizes": "180x180"
       },
       {
+        "src": "icons/apple-icon-512x512.png",
+        "type": "image/png",
+        "sizes": "152x152"
+      },
+
+      {
         "src": "icons/ms-icon-144x144.png",
         "type": "image/png",
         "sizes": "144x144"
