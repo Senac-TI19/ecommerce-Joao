@@ -57,7 +57,9 @@
                  <img width="160px" height="160px" src="http://d3ugyf2ht6aenh.cloudfront.net/stores/001/631/923/products/e8982bc91-8aba88dd5b4b680f8d16256852698238-640-0.jpg" alt="Barcelona">               
                  <h2 >Barcelona - Third 2021/22</h2>
                  <span class="price">R$130,00</span>
-                 <button type="add-carrinho" onclick= "window.location.replace('./carrinho.html')">Adicionar ao Carrinho</button>
+                 <div class = "add-carrinho">
+                    <a href="http://127.0.0.1:5500/ecommerce-Joao/carrinho.html"><button>Adicionar ao Carrinho</button></a></div>
+                 
             </div>
             
             <div>
@@ -86,9 +88,17 @@
 
         </div>
 
-        <footer>
-            rodape
-           </footer>
+        <footer id="rodape">
+            <h3>Contatos</h3>
+            <a href="api.whatsapp.com/send?phone=5511982587757" class="link-home" rel="home" itemprop="url">
+                <img src="img/img/wpp.jpg" width="30%" height="30%" alt= "logo"></a>
+            
+            </a>
+            <a href="https://www.instagram.com/imports_sports21/" class="link-home" rel="home" itemprop="url">
+                <img src="img/img/Instagram.png" width="30%" height="30%" alt= "logo"></a>
+            
+            </a>
+        </footer>
 
        <script src="index.js"></script>
     </body>
